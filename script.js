@@ -16,7 +16,7 @@ class Stopwatch extends React.Component {
 	reset() {
 		this.setState({
 			running: false,
-			this.times = {
+			times: {
 				minutes: 0,
 				seconds: 0,
 				miliseconds: 0
@@ -115,14 +115,6 @@ class Stopwatch extends React.Component {
 		)
 	}
 }
-
-
-// let startButton = document.getElementById('start');
-// let stopButton = document.getElementById('stop');
-// let resetButton = document.getElementById('reset');
-// let addListButton = document.getElementById('addToList');
-// let resetList = document.getElementById('resetList');
-// const timeList = document.querySelector('.results');
 
 const element = React.createElement(Stopwatch);
 ReactDOM.render(element, document.getElementById('app'));
