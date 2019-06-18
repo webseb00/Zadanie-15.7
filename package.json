@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "babel script.js --watch --out-file script-compiled.js",
-    "server": "http-server ./"
+    "server": "http-server"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +15,8 @@
     "babel-preset-latest": "^6.24.1"
   },
   "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
     "http-server": "^0.11.1"
   }
 }
