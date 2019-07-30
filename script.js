@@ -14,7 +14,6 @@ class Stopwatch extends React.Component {
 		this.stop = this.stop.bind(this);
 		this.calculate = this.calculate.bind(this);
 		this.resetWatch = this.resetWatch.bind(this);
-		//this.saveTime = this.saveTime.bind(this);
 	}
 
 	reset() {

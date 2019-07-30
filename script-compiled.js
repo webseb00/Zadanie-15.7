@@ -29,7 +29,6 @@ var Stopwatch = function (_React$Component) {
 		_this.stop = _this.stop.bind(_this);
 		_this.calculate = _this.calculate.bind(_this);
 		_this.resetWatch = _this.resetWatch.bind(_this);
-		//this.saveTime = this.saveTime.bind(this);
 		return _this;
 	}
 
